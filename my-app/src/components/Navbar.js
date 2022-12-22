@@ -1,8 +1,16 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 
 export default function Navbar() {
+  const [sticky, setSticky] = useState(false);
+  useEffect(()=>{
+    const handleScroll = () => {
+      setSticky(window.scrollY > 0)
+    }
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll);
+  })
   return (
-    <header className="md:sticky top-0 z-10">
+    <header className={`${sticky ? "md:sticky bg-gray-800 w-full top-0" : "bg-gray-800 w-full top-0"}`}>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="mb-4 md:mb-0">
           <a href="#about" className="text-2xl title-font mr-5 hover:text-white">
