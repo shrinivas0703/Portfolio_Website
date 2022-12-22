@@ -8,7 +8,7 @@ import "./index.css";
 
 function App() {
   return (
-    <main className="text-gray-300 bg-cyan-600 body-font">
+    <main className="text-gray-300 bg-gray-700 body-font">
       <Navbar/>
       <About/>
       <Projects/>

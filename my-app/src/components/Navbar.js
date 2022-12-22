@@ -18,10 +18,19 @@ export default function Navbar() {
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="mr-5 hover:text-white">
-            My Projects
+          <a href="#projects" className="ml-10 mr-10 hover:text-white">
+            Projects
+          </a>
+          <a href="#skills" className="mr-10 hover:text-white">
+            Skills
+          </a>
+          <a href="#resume" className="mr-10 hover:text-white">
+            Resume
           </a>
         </nav>
+        <a href="#contact" className="hover:text-white items-center inline-flex mt-4 md:mt-0">
+            Contact Me
+        </a>
       </div>
     </header>
   );

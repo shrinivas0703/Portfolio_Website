@@ -2,8 +2,11 @@ import React, {} from "react";
 
 export default function About() {
     return (
-        <section id="about">
-            My name is Shrinivas.
+        <section id="about" className="">
+            <br></br>
+            <br></br>
+            <br></br>   
+            <div>My name is Shrinivas.</div>
             <div>a</div>
             <div>b</div>
             <div>c</div>
