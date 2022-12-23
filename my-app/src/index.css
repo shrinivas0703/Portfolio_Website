@@ -7,3 +7,13 @@ header.sticky {
     top: 0;
     z-index: 100;
 }
+
+img.image {
+    height: 400px;
+    width: 300px;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(31, 41, 55);
+}
