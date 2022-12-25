@@ -13,6 +13,11 @@ img.image {
     width: 300px;
 }
 
+img.projectPic {
+    height: 240px;
+    width: 400px;
+}
+
 html {
     scroll-behavior: smooth;
     background-color: rgb(31, 41, 55);

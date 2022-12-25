@@ -23,7 +23,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src={pic} alt="Me" className="image mt-4"/>
+                    <img src={pic} alt="Me" className="image mt-4 border border-2 border-black"/>
                     <div className="text-center italic mx-auto mt-4">That's Me!</div>
                 </div>
             </div>
