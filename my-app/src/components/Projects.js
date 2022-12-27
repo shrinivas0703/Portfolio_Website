@@ -30,7 +30,7 @@ function Projects() {
                     <div className="items-top mb-6 md:mb-0">
                     <Popup trigger={<button className="shadow hover:shadow-2xl">
                                 <img src={expensePic} className="projectPic border border-black border-2" alt="expenses app"></img>
-                            </button>} modal>
+                            </button>} modal lockScroll>
                     {close => (
                     <div className="modal">
                         <button className="close" onClick={close}>
