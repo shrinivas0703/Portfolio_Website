@@ -18,7 +18,35 @@ img.projectPic {
     width: 400px;
 }
 
+img.popUpPic {
+    height: 300px;
+    width: 500px;
+}
+
 html {
     scroll-behavior: smooth;
     background-color: rgb(31, 41, 55);
+}
+.modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 5px;
+}
+.modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+}
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
 }

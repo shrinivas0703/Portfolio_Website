@@ -17,9 +17,9 @@ export default function About() {
                     </h1>
                     <a className="mt-3">Sophomore majoring in CS and Data Science at Purdue.</a>
                     <div className="flex flex-row items-center">
-                    <button className="border border-gray-700 rounded-full bg-gray-600 mt-7 text-white px-5 py-2 hover:border-gray-400 sm:hidden md:block mr-5" onClick={event =>  window.location.href="#projects"}>Check out my Past Work!</button>
-                    <button className="border border-gray-700 rounded-full bg-gray-600 mt-7 text-white px-5 py-2 hover:border-gray-400 sm:hidden md:block mr-5" onClick={event =>  window.location.href="#skills"}>My Skills!</button>
-                    <button className="rounded-full bg-green-700 mt-7 text-white px-5 py-2 hover:bg-green-600 sm:hidden md:block" onClick={event =>  window.location.href="#contact"}>Let's Get in Touch!</button>
+                    <button className="border border-gray-700 rounded-full bg-gray-600 mt-7 text-white px-5 py-2 hover:border-gray-400 hidden md:block mr-5" onClick={event =>  window.location.href="#projects"}>Check out my Past Work!</button>
+                    <button className="border border-gray-700 rounded-full bg-gray-600 mt-7 text-white px-5 py-2 hover:border-gray-400 hidden md:block mr-5" onClick={event =>  window.location.href="#skills"}>My Skills!</button>
+                    <button className="rounded-full bg-green-700 mt-7 text-white px-5 py-2 hover:bg-green-600 hidden md:block" onClick={event =>  window.location.href="#contact"}>Let's Get in Touch!</button>
                     </div>
                 </div>
                 <div className="flex flex-col items-center">

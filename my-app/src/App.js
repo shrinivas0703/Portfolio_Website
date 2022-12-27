@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import "./index.css";
 
+
 function App() {
   return (
     <main className="text-gray-300 bg-gray-700 body-font">
