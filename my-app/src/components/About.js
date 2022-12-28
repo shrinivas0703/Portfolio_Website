@@ -15,7 +15,7 @@ export default function About() {
                     <h1 className="title-font text-4xl font-medium text-gray-300">
                         Hey! I'm Shrinivas!
                     </h1>
-                    <a className="mt-3">Sophomore majoring in CS and Data Science at Purdue.</a>
+                    <span className="mt-3">Sophomore majoring in CS and Data Science at Purdue.</span>
                     <div className="flex flex-row items-center">
                     <button className="border border-gray-700 rounded-full bg-gray-600 mt-7 text-white px-5 py-2 hover:border-gray-400 hidden md:block mr-5" onClick={event =>  window.location.href="#projects"}>Check out my Past Work!</button>
                     <button className="border border-gray-700 rounded-full bg-gray-600 mt-7 text-white px-5 py-2 hover:border-gray-400 hidden md:block mr-5" onClick={event =>  window.location.href="#skills"}>My Skills!</button>

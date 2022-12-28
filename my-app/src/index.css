@@ -66,3 +66,7 @@ html {
     width: 100%;
     position: absolute;
 }
+
+#hover:hover > svg{
+    stroke: rgb(34, 197, 94)
+}
