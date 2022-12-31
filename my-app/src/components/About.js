@@ -5,7 +5,7 @@ export default function About() {
     
     return (
         <section id="about" className="">
-            <br className=""></br>
+            <br className="hidden md:block"></br>
             <div className="container mx-auto flex px-3 py-20 md:flex-row flex-col items-top">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-25 items-center text-center">
                     <br className="sm:hidden md:block"></br>
