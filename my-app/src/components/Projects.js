@@ -34,7 +34,7 @@ function Projects() {
                         <div className="header text-xl">My Portfolio Website</div>
                         <div className="content text-center items-center mt-5">
                         {' '}
-                        My Portfolio Website built using ReactJS and hosted using GitHub Pages that showcases my projects and skills.
+                        My Portfolio Website built using ReactJS and hosted using Netlify that showcases my projects and skills.
                         <br></br>
                         <div>
                             <img src={websitePic} className="hidden md:block border border-black border-1 mt-5" alt="portfolio website"></img>
@@ -96,7 +96,7 @@ function Projects() {
                             <YoutubeVid embedId="loAcMliAdSE"/>
                         </div>
                         <button className="rounded-full bg-green-700 px-5 py-2 hover:bg-green-600 text-white mt-5"
-                        onClick={() => openInNewTab("https://github.com/mihirakk/MealFinder")}>
+                        onClick={() => openInNewTab("https://github.com/shrinivas0703/MealFinderLaunchPad2021")}>
                             View this project on GitHub
                         </button>
                         </div>
