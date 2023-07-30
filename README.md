@@ -1,7 +1,7 @@
 # Portfolio_Website
-This is the GitHub repository for my personal portfolio website built using ReactJS.
-The URL for this website is shrinivasvenkatesan.com.
-Requisite Libraries:
-tailwindcss: npm i tailwindcss
-reactjs-popup: npm i reactjs-popup
-heroicons: npm i heroicons
+This is the GitHub repository for my personal portfolio website built using ReactJS. <br>
+The URL for this website is https://shrinivasvenkatesan.com. <br>
+## Requisite Libraries:
+tailwindcss: npm i tailwindcss <br>
+reactjs-popup: npm i reactjs-popup <br>
+heroicons: npm i heroicons <br>
