@@ -1,5 +1,5 @@
 import React, {} from "react";
-import websitePic from "../assets/website2.png";
+import websitePic from "../assets/website.png";
 import expensePic from "../assets/expense.png";
 import forkPic from "../assets/fork.png";
 import matrixPic from "../assets/matrix.png";
