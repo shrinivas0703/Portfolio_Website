@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import pdf from "../assets/Resume Updated Summer 2023.pdf";
+import pdf from "../assets/Shrinivas_Venkatesan_Resume.pdf";
 
 export default function Navbar() {
   const [sticky, setSticky] = useState(false);
